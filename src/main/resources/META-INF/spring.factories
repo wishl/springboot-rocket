@@ -1,0 +1,5 @@
+org.springframework.beans.factory.config.BeanPostProcessor=\
+com.izuche.rocket.processor.RocketMqComsumerBeanPostProcessor
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.izuche.rocket.configuration.RocketMQConfig,\
+com.izuche.rocket.configuration.ReocketMQProductConfig

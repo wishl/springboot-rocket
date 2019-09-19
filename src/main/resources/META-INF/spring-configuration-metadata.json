@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "name": "mqProductConfig",
+      "type": "com.izuche.rocket.properties.RocketMqProducterPropreties",
+      "sourceType": "com.izuche.rocket.properties.RocketMqProducterPropreties"
+    },{
+      "name": "mqComsumeProperties",
+      "type": "com.izuche.rocket.properties.RocketMQComsumerProperties",
+      "sourceType": "com.izuche.rocket.properties.RocketMQComsumerProperties"
+    }
+  ],
+  "properties":[
+    {
+      "name": "spring.rocket.mq.producer.producterConfig",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.rocket.properties.RocketMqProducterPropreties"
+    },{
+      "name": "spring.rocket.mq.comsumer.namesrvAddr",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.rocket.properties.RocketMQComsumerProperties"
+    },{
+      "name": "spring.rocket.mq.comsumer.topic",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.rocket.properties.RocketMQComsumerProperties"
+    },{
+      "name": "spring.rocket.mq.comsumer.maxThread",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.rocket.properties.RocketMQComsumerProperties"
+    },{
+      "name": "spring.rocket.mq.comsumer.minThread",
+      "type": "java.lang.Integer",
+      "sourceType": "com.izuche.rocket.properties.RocketMQComsumerProperties"
+    },{
+      "name": "spring.rocket.mq.comsumer.listener",
+      "type": "java.lang.String",
+      "sourceType": "com.izuche.rocket.properties.RocketMQComsumerProperties"
+    }
+  ]
+}
